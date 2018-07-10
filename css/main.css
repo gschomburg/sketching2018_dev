@@ -1,3 +1,7 @@
 html{
-    background-color: yellow;
+    background-color: #FFFA97;
+}
+#headerCanvas{
+    width:900px;
+    height: 550px;
 }

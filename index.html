@@ -3,6 +3,8 @@
 
     <head>
         <title>Sketching in Hardware 2018</title>
+        <!-- <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="initial-scale=1"> -->
         <!-- meta -->
         <meta property="og:title" content="The New Machine Age">
         <meta property="og:type" content="website">
@@ -18,14 +20,15 @@
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
         <!-- <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600" rel="stylesheet"> -->
         <link rel="stylesheet" type="text/css" href="css/main.css">
-        <script src="js/main.js"></script>
+        
     </head>
     <body>
+        <canvas id="headerCanvas" resize></canvas>
         <div id="main-container">
             <div class="section">
                 <div class="details">
-                    July 28th through July 30th
-                    <br/> Masonic Temple
+                    July XX through July XX
+                    <br/> Locatoin TBD
                     <br/> Detroit, Michigan
                 </div>
             </div>
@@ -58,15 +61,6 @@
                     <li>location 2</li>
                     <li>location 3</li>
                     <li>location 4</li>
-                </ul>
-            </div>
-            <div class="section">
-                <h2>Location</h2>
-                <ul>
-                    <li>sponsor 1</li>
-                    <li>sponsor 2</li>
-                    <li>sponsor 3</li>
-                    <li>sponsor 4</li>
                 </ul>
             </div>
             <div class="section">
@@ -129,5 +123,7 @@
             </div>
            
         </div>
+        <script src="./libs/paper-full.js"></script>
+        <script type="text/paperscript" src="./js/main.js" canvas="headerCanvas"></script>
     </body>
 </html>
