@@ -1,7 +1,13 @@
 html{
     background-color: #FFFA97;
 }
+body{
+    margin:0;
+}
 #headerCanvas{
-    width:900px;
+    /* width:900px; */
+    /* height: 550px; */
+    width: 70vw;
     height: 550px;
+    outline: 1px solid red;
 }
