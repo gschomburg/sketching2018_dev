@@ -2,6 +2,7 @@ console.log('ello');
 var headerSVG;
 function headerLoaded(item, svg) {
     headerSVG = item;
+    return;
     console.log('loaded');
     console.log(headerSVG.children['masked'].lastChild.lastChild);
     var maskedContents = headerSVG.children['masked'].lastChild.lastChild;
@@ -13,8 +14,9 @@ function headerLoaded(item, svg) {
     }
     // maskedContents.position = new Point(450, 0);
 }
-project.viewSize = new Size(900, 554);
-project.importSVG('./svg/poc_clipped.svg', headerLoaded);
+project.viewSize = new Size(1200, 750);
+// project.importSVG('./svg/poc_clipped.svg', headerLoaded);
+project.importSVG('./svg/s2018_header.svg', headerLoaded);
 
 //event handlers
 view.onResize = function (event) {

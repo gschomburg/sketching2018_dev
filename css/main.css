@@ -7,7 +7,10 @@ body{
 #headerCanvas{
     /* width:900px; */
     /* height: 550px; */
-    width: 70vw;
-    height: 550px;
+    width: 100vw;
+    /* height: 550px; */
+    height: 62.5vw;
+    max-width: 1200px;
+    max-height: 750px;
     outline: 1px solid red;
 }
