@@ -1,0 +1,53 @@
+
+
+$blue-color: #000068;
+$red-color: #FC0D4C;
+$white-color: #FDFFEE;
+
+/*fonts*/
+
+
+html{
+    background-color: $white-color;
+}
+body{
+    margin:0;
+    color: $blue-color;
+    // font-family: 'Roboto Slab', serif;
+    // font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif; //1
+    font-size: 18px;
+    line-height: 1.7em;
+    // font-family: 'Nunito', sans-serif;
+    // font-family: 'Dosis', sans-serif;
+    // font-family: 'Didact Gothic', sans-serif;
+    // font-family: 'Comfortaa', sans-serif; //2
+}
+ul{
+    list-style: none;
+}
+#headerCanvas{
+    /* width:900px; */
+    /* height: 550px; */
+    width: 100vw;
+    /* height: 550px; */
+    height: 62.5vw;
+    max-width: 1200px;
+    max-height: 750px;
+    outline: 1px solid red;
+    display: block;
+    margin: auto;
+}
+#main-container{
+    max-width: 900px;
+    margin: auto;
+}
+
+#locations{
+    li{
+        margin-bottom: 10px;;
+        span{
+            display: block;
+        }
+    }
+}
