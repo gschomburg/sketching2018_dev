@@ -9,10 +9,19 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   line-height: 1.7em;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  background-color: #FC0D4C;
+  color: #FDFFEE;
+  padding: .1em .2em;
 }
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 #headerCanvas {
@@ -31,6 +40,12 @@ ul {
 #main-container {
   max-width: 900px;
   margin: auto;
+  padding: 0 1em;
+}
+
+.divider {
+  height: 50px;
+  border-bottom: 2px solid #000068;
 }
 
 #locations li {
@@ -39,5 +54,20 @@ ul {
 
 #locations li span {
   display: block;
+}
+
+#locations #map {
+  background-color: #FC0D4C;
+  width: 100%;
+  height: 450px;
+}
+
+/*sponsors*/
+.logo {
+  width: 150px;
+}
+
+.logo img {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
