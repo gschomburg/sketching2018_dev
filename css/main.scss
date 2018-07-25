@@ -13,18 +13,12 @@ html{
 body{
     margin:0;
     color: $blue-color;
-    // font-family: 'Roboto Slab', serif;
-    // font-family: 'Raleway', sans-serif;
-    font-family: 'Quicksand', sans-serif; //1
+    font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     line-height: 1.7em;
     font-weight: 500;
-    // font-family: 'Nunito', sans-serif;
-    // font-family: 'Dosis', sans-serif;
-    // font-family: 'Didact Gothic', sans-serif;
-    // font-family: 'Comfortaa', sans-serif; //2
 }
-a{
+.section a{
     text-decoration: none;
     background-color: $red-color;
     color: $white-color;
@@ -43,7 +37,7 @@ ul{
     height: 62.5vw;
     max-width: 1200px;
     max-height: 750px;
-    outline: 1px solid red;
+    // outline: 1px solid red;
     display: block;
     margin: auto;
 }
@@ -68,11 +62,11 @@ ul{
             display: block;
         }
     }
-    #map{
-        background-color: #FC0D4C;
-        width:100%;
-        height: 450px;
-    }
+}
+#map{
+    background-color: #FC0D4C;
+    width:100%;
+    height: 450px;
 }
 
 /*sponsors*/

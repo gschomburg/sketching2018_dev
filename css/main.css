@@ -12,7 +12,7 @@ body {
   font-weight: 500;
 }
 
-a {
+.section a {
   text-decoration: none;
   background-color: #FC0D4C;
   color: #FDFFEE;
@@ -32,7 +32,6 @@ ul {
   height: 62.5vw;
   max-width: 1200px;
   max-height: 750px;
-  outline: 1px solid red;
   display: block;
   margin: auto;
 }
@@ -56,7 +55,7 @@ ul {
   display: block;
 }
 
-#locations #map {
+#map {
   background-color: #FC0D4C;
   width: 100%;
   height: 450px;
